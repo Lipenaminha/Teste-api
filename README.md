@@ -1,34 +1,27 @@
-# Teste de API - Vue.js + Python (Flask)
+# 📌Teste de API - Vue.js + Python (Flask)
 
 Este repositório contém a implementação de uma aplicação simples com backend em **Python** utilizando **Flask** e frontend em **Vue.js**. O objetivo é realizar uma busca textual em uma lista de operadoras de planos de saúde a partir de um arquivo **CSV** fornecido pela ANS.
 
 ---
 
-## Estrutura do Projeto
+## 🚀Tecnologias utilizadas
 
 ### Backend (Python - Flask)
-- **`app.py`**: Script Python que implementa a API para realizar a busca nas operadoras a partir do arquivo CSV.
-- **`requirements.txt`**: Contém as dependências necessárias para rodar o servidor backend, como Flask e pandas.
+[python.py](https://github.com/Lipenaminha/Teste-api/blob/main/Python.py) : Script Python que implementa a API para realizar a busca nas operadoras a partir do arquivo CSV.
+## Dependencias
+📍flask
+📍pandas
 
 ### Frontend (Vue.js)
-- **`/src/App.vue`**: Componente Vue.js responsável pela interface do usuário para realizar a busca de operadoras.
-- **`/src/main.js`**: Arquivo que inicializa a aplicação Vue.js.
+[vue.js](https://github.com/Lipenaminha/Teste-api/blob/main/Frontend/codigo.vuejs) : Componente Vue.js responsável pela interface do usuário para realizar a busca de operadoras.
+## Dependencias 
+📍vue.js 
+📍Axios
 
-### Dados
-- **`/dados/operadoras_ativas.csv`**: Arquivo CSV que contém os dados das operadoras ativas, como nome, CNPJ, endereço, entre outros.
+## 🔧 Coleção (Postamn)
+[postamn](https://github.com/Lipenaminha/Teste-api/blob/main/Cole%C3%A7%C3%A3o%20postan/codigo.json) : Componente responsável para testar a API no endpoint /search.
 
-### Postman
-- **`postman_collection.json`**: Coleção do Postman para testar a API. Contém requisições para buscar operadoras com base em um termo de pesquisa.
 
----
+### 🗂️ Dados
+[planilha operadoras](https://dadosabertos.ans.gov.br/FTP/PDA/operadoras_de_plano_de_saude_ativas/) : Arquivo CSV que contém os dados das operadoras ativas, como nome, CNPJ, endereço, entre outros.
 
-## Como Executar
-
-### Backend (Python - Flask)
-
-1. **Instalar as dependências do backend:**
-
-   Antes de rodar o servidor Python, instale as dependências listadas no arquivo `requirements.txt`:
-
-   ```bash
-   pip install -r requirements.txt
